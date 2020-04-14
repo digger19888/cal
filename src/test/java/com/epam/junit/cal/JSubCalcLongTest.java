@@ -3,10 +3,10 @@ package com.epam.testng.cal;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SubCalLongTest extends BaseTest{
+public class JSubCalcLongTest extends BaseTest{
     @Test
     public void twoMinusOneTest() {
         long result = calculator.sub(2, 1);
-        Assert.assertTrue(result == 1);
+        Assert.assertEquals(result, 1, "Invalid result!");
     }
 }

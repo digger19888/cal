@@ -1,8 +1,8 @@
 package com.epam.testng.cal;
 
-import com.epam.tat.module4.Calculator;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+        import com.epam.tat.module4.Calculator;
+        import org.testng.annotations.AfterClass;
+        import org.testng.annotations.BeforeClass;
 
 public class BaseTest {
     protected Calculator calculator;

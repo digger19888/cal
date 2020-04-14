@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Calcul" verbose="1" parallel="classes" thread-count="2">
+    <test name="DivTest">
+        <classes>
+            <class name="com.epam.testng.cal.SumCalLongTest"/>
+            <class name="com.epam.testng.cal.SumCalDoubleTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Calculate" verbose="1" parallel="false" thread-count="2">
+    <test name="SumTest">
+        <parameter name="first" value="2"/>
+        <parameter name="second" value="7"/>
+        <parameter name="expected" value="9"></parameter>
+        <classes>
+            <class name="com.epam.testng.cal.ParametrCalTest"/>
+        </classes>
+    </test>
+</suite>
