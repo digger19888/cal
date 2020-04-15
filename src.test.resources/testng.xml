@@ -4,7 +4,7 @@
     <test name="TestDiv">
         <groups>
             <run>
-                <include name="divcal"/>
+                <include name="divCal"/>
             </run>
         </groups>
 
