@@ -12,13 +12,13 @@ public class CtgCalTest extends BaseTest {
         Assert.assertEquals(result, 19.081136, "Invalid result!");
     }
 
-    @Test
+    @Test(expectedExceptions = ArithmeticException.class)
     public void ctgZero() {
         double a = 0;
-        double result = calculator.ctg(a);
         if (a == 0L) {
-            throw new NumberFormatException("Attempt to divide by zero");
+            throw new ArithmeticException("Attempt to divide by zero");
         }
+        double result = calculator.ctg(a);
     }
 
     @Test

@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class SubCalLongTest extends BaseTest {
     @Test(dataProvider = "valuesForSubTest")
-    public void onePlusTwoTest(long a, long b, long expectedValue) {
+    public void positiveSubTest(long a, long b, long expectedValue) {
         long result = calculator.sub(a, b);
         Assert.assertEquals(result, expectedValue, "Invalid result!");
     }
